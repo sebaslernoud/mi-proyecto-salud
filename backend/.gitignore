@@ -1,0 +1,18 @@
+# --- Python / Flask ---
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.python-version
+
+# --- Base de Datos y Variables de Entorno ---
+.env
+*.db
+*.sqlite
+
+# --- Distribución / Build ---
+dist/
+build/
+*.egg-info/
